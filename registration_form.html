@@ -1,0 +1,30 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title> Registration Form</title>
+    </head>
+    <body>
+        <h4>Student registration form.</h4>
+        <p>Please fill in your details below.</p>
+        <form action="" method="post" enctype="multipart/form-data">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br>
+            <label for="DBirth">Date of Birth:</label>
+            <input type="date" id="DBirth" name="DBirth" required><br>
+            <input type="radio" id="gender" name="gender" value="Male" required>
+            <label for="Male">Male</label><br>
+            <input type="radio" id="gender" name="gender" value="Female" required>
+            <label for="Female">Female</label><br>
+            <label for="address">Address:</label>
+            <input type="text" id="address" name="address" required><br>
+            <label for="telephone">Telephone:</label>
+            <input type="tel" id="telephone" name="telephone" required><br>
+            <label for="email">Email address:</label>
+            <input type="email" id="email" name="email" placeholder="john@email.com" required><br>
+            <label for="course">Enter your course:</label>
+            <input type="text" id="course" name="course" required><br>
+            <button type="submit">Register</button>
+            <button type="reset">Cancel</button>
+        </form>
+    </body>
+</html>
